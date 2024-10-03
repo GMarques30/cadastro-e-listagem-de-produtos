@@ -41,8 +41,4 @@ public class ProductController {
       throw new ResponseStatusException(HttpStatus.BAD_REQUEST, e.getMessage(), e);
     }
   }
-<<<<<<< HEAD
-=======
-
->>>>>>> c9deac97edea850466382f7226590b8676a62067
 }
