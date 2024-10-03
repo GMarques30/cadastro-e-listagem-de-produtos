@@ -3,7 +3,6 @@ package br.com.cadastro_e_listagem_de_produtos;
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
-@SpringBootTest
 class CadastroEListagemDeProdutosApplicationTests {
 
 	@Test
