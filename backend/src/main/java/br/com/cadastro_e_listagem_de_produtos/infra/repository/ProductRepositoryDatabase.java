@@ -31,7 +31,7 @@ public class ProductRepositoryDatabase implements ProductRepository {
   @Override
   public List<ListAllProductsOutput> listAll() {
     List<ListAllProductsOutput> products = new ArrayList<>();
-    String stmt = "SELECT * FROM app.products ORDER BY name ASC";
+    String stmt = "SELECT * FROM app.products ORDER BY price ASC";
     ResultSet rs = this.connection.query(stmt);
     try {
       while (rs.next()) {
