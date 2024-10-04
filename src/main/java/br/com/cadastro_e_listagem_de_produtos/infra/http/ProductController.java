@@ -22,7 +22,7 @@ public class ProductController {
     this.listAllProducts = listAllProducts;
   }
 
-  @PostMapping
+  @PostMapping("/create")
   public ResponseEntity<Void> create(@RequestBody CreateProductInput input) {
     try {
       this.createProduct.execute(input);
